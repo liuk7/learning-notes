@@ -69,7 +69,7 @@
 ### Application
 
 - [ ] Relational Database Systems  <https://www.coursera.org/learn/relational-database>
-- [ ] Machine Learning  https://www.coursera.org/learn/machine-learning
+- [ ] Machine Learning  <https://www.coursera.org/learn/machine-learning>
 - [ ] Computer Graphics  <https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x>
 - [ ] Software Engineering: Introduction  <https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x>
 - [ ] Software Development Capstone Project  <https://www.edx.org/course/software-development-capstone-project-ubcx-softengprjx>

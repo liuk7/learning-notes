@@ -46,7 +46,7 @@ a, b = b, a+b
 
 - `'string1'`
 - `"string2"`
-- special characters can be escaped by \ : `"don\'t" = don't
+- special characters can be escaped by \ : `"don\'t"` = don't
 - `print(r'C:\some\name')` = C:\some\name
 - strings are indexed and can be sliced
 - immutable

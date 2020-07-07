@@ -469,3 +469,42 @@
 # ys = np.array([8.0, 7.5, 7.0, 6.5, 6.0, 5.5, 5.0, 4.5], dtype = float)
 # model.fit(xs, ys, epochs = 1000)
 # print(model.predict([7.0]))
+
+# def print_digits(num):
+#     ones = num % 10
+#     tens = num // 10
+#     print("The tens digit is %d, and the ones digit is %d." % (tens, ones))
+
+# print_digits(79)
+# import random
+
+# n = random.randint(0, 10)
+# print (n)
+
+
+# def f(x):
+#     result = - 5 * x ** 5 + 69 * x ** 2 - 47
+#     return result
+
+
+# print(f(1))
+# print(f(2))
+# print(f(3))
+# print(f(0))
+
+
+# def future_value(present_value, annual_rate, periods_per_year, years):
+#     rate_per_period = annual_rate / periods_per_year
+#     periods = periods_per_year * years
+#     return present_value * (1 + rate_per_period) ** periods
+
+# print ('$1000 at .02 compounded daily for 3 years yields $%.2f' % future_value(1000, .02, 365, 3))
+import math
+
+def project_to_distance(point_x, point_y, distance):
+    dist_to_origin = math.sqrt(point_x ** 2 + point_y ** 2)
+    scale = distance / dist_to_origin
+    return point_x * scale, point_y * scale
+
+print('%.4f %.4f' % project_to_distance(2, 7, 4))
+

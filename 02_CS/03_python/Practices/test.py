@@ -499,12 +499,12 @@
 #     return present_value * (1 + rate_per_period) ** periods
 
 # print ('$1000 at .02 compounded daily for 3 years yields $%.2f' % future_value(1000, .02, 365, 3))
-import math
+# import math
 
-def project_to_distance(point_x, point_y, distance):
-    dist_to_origin = math.sqrt(point_x ** 2 + point_y ** 2)
-    scale = distance / dist_to_origin
-    return point_x * scale, point_y * scale
+# def project_to_distance(point_x, point_y, distance):
+#     dist_to_origin = math.sqrt(point_x ** 2 + point_y ** 2)
+#     scale = distance / dist_to_origin
+#     return point_x * scale, point_y * scale
 
-print('%.4f %.4f' % project_to_distance(2, 7, 4))
+# print('%.4f %.4f' % project_to_distance(2, 7, 4))
 

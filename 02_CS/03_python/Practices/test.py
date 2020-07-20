@@ -508,3 +508,34 @@
 
 # print('%.4f %.4f' % project_to_distance(2, 7, 4))
 
+# x = 5
+
+# def a(y):
+#     global x
+#     x = x + y
+#     return x
+
+# def b(x, y):
+#     x = x + y
+#     return x
+
+# def c(y):
+#     return x + y
+
+# def d(y):
+#     y = x + y
+#     return y
+
+# a(2)
+# print(d(1))
+
+# count = 0
+
+# def square(x):
+#     global count
+#     count += 1
+#     return x**2
+
+# print(square(square(square(square(3)))))
+# print(count)
+

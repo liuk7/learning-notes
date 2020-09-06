@@ -1,0 +1,2 @@
+def lns(string):
+    pass
